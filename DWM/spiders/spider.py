@@ -4,7 +4,7 @@ import json
 
 
 class MySpider(scrapy.Spider):
-    name = 'daiji'
+    name = 'articles'
     allowed_domains = ['https://www.daijiworld.com/home.aspx']
     start_urls = [
         'https://www.daijiworld.com/home.aspx',
